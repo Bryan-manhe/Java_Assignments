@@ -1,0 +1,81 @@
+========================================
+JDBC DATABASE CONNECTION DEMONSTRATION
+========================================
+
+1. Loading JDBC driver...
+   Driver loaded successfully: org.h2.Driver
+
+2. Establishing database connection...
+   URL: jdbc:h2:~/testdb;MODE=MySQL;DB_CLOSE_DELAY=-1
+   User: sa
+   Connection Status: SUCCESS
+
+3. Database Connection Details:
+   Database Product: H2
+   Database Version: 2.2.224 (2023-09-17)
+   Driver Name: H2 JDBC Driver
+   Driver Version: 2.2.224 (2023-09-17)
+   Auto-commit Mode: true
+   Transaction Isolation: 2
+   Connection is closed? false
+
+4. Creating Statement and executing test query...
+   Statement created successfully
+   Statement type: org.h2.jdbc.JdbcStatement
+   Max rows allowed: 0
+   Query timeout: 0 seconds
+
+5. Running test query (SELECT 1)...
+   Query executed successfully. Test value: 1
+
+========================================
+CONNECTION ESTABLISHED SUCCESSFULLY!
+========================================
+
+6. Closing resources...
+   Statement closed
+   Connection closed
+   Connection is closed? true
+
+=== JDBC DEMONSTRATION COMPLETE ===
+
+=== Exercise 2 ===
+========================================
+  STUDENT DATABASE CONNECTION SYSTEM
+========================================
+
+[1/5] Loading JDBC driver... COMPLETE
+       Driver class loaded: org.h2.Driver
+
+[2/5] Preparing connection parameters... COMPLETE
+       Database URL : jdbc:h2:~/studentdb;MODE=MySQL;DB_CLOSE_DELAY=-1
+       User         : sa
+       Password     : [empty]
+
+[3/5] Connecting to Student database... COMPLETE
+
+       ========================================
+       *** STUDENT DATABASE IS CONNECTED SUCCESSFULLY! ***
+       ========================================
+
+       Connection Object: org.h2.jdbc.JdbcConnection
+       Database Product: H2
+       Database Version: 2.2.224 (2023-09-17)
+
+[4/5] Creating Statement object... COMPLETE
+       Statement Object: org.h2.jdbc.JdbcStatement
+       Table 'student_info' is ready for use.
+
+[5/5] Verifying database operations... FAILED
+
+ERROR: Could not connect to Student database.
+SQL State : 23505
+Error Code: 23505
+Message   : Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.STUDENT_INFO(STUDENT_ID) ( /* key:0 */ 101, 'Alice Johnson', 'Computer Science')"; SQL statement:
+INSERT INTO student_info VALUES (101, 'Alice Johnson', 'Computer Science') [23505-224]
+
+--- Closing Resources ---
+  Statement closed.
+  Connection closed.
+  Connection closed? true
+--- Done ---

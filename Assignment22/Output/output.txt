@@ -1,0 +1,47 @@
+=== Exercise 1 ===
+========================================
+  LOGIN SYSTEM USING PreparedStatement
+========================================
+
+Enter Username: Enter Password: 
+Executing: SELECT * FROM users WHERE username = *** AND password = ***
+Using PreparedStatement with parameterized values.
+
+========================================
+  LOGIN SUCCESSFUL!
+  Welcome, admin!
+  Role: Administrator
+========================================
+
+=== Exercise 2 ===
+========================================
+  HOSPITAL STAFF LOGIN SYSTEM
+  (PreparedStatement Authentication)
+========================================
+
+Enter Staff ID: Enter Password: 
+Authenticating via PreparedStatement...
+
+========================================
+  ? ACCESS GRANTED
+========================================
+  Staff ID   : DOC001
+  Name       : Dr. Sarah Williams
+  Role       : Doctor
+  Department : Cardiology
+
+  ----- Access Level -----
+  You have full access to:
+  • Patient medical records
+  • Prescription management
+  • Lab test results
+  • Surgery schedules
+========================================
+
+--- PreparedStatement Reusability Demo ---
+
+Staff in Cardiology:
+  DOC001 - Dr. Sarah Williams (Doctor)
+
+Staff in ICU:
+  NUR002 - Nurse Robert Wilson (Nurse)

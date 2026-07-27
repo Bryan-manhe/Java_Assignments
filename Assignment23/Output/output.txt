@@ -1,0 +1,223 @@
+=== Exercise 1 ===
+========================================
+  RESULTSET NAVIGATION DEMONSTRATION
+========================================
+
+--- 1. Forward Navigation (next()) ---
+   Record 1: 101 | Java Programming | $599.99
+   Record 2: 102 | Python Basics | $449.5
+   Record 3: 103 | Data Structures | $699.0
+   Record 4: 104 | Database Systems | $549.99
+   Record 5: 105 | Web Development | $399.0
+   Total records: 5
+
+--- 2. Backward Navigation (previous()) ---
+   105 | Web Development
+   104 | Database Systems
+   103 | Data Structures
+   102 | Python Basics
+   101 | Java Programming
+
+--- 3. Direct Navigation (first() / last()) ---
+   First record: 101 | Java Programming
+   Last record : 105 | Web Development
+   Total rows  : 5
+
+--- 4. Absolute Positioning (absolute(n)) ---
+   Record at position 3: 103 | Data Structures | $699.0
+   Record at position 1: 101 | Java Programming
+
+--- 5. Relative Positioning (relative(n)) ---
+   Current: 101 | Java Programming
+   After relative(2): 103 | Data Structures
+   After relative(-1): 102 | Python Basics
+
+--- 6. Displaying Records One by One ---
+   === Record 1 ===
+   Book ID  : 101
+   Title    : Java Programming
+   Author   : John Smith
+   Price    : $599.99
+   Stock    : 20
+   ---------------------
+   === Record 2 ===
+   Book ID  : 102
+   Title    : Python Basics
+   Author   : Jane Doe
+   Price    : $449.5
+   Stock    : 15
+   ---------------------
+   === Record 3 ===
+   Book ID  : 103
+   Title    : Data Structures
+   Author   : Bob Wilson
+   Price    : $699.0
+   Stock    : 10
+   ---------------------
+   === Record 4 ===
+   Book ID  : 104
+   Title    : Database Systems
+   Author   : Alice Brown
+   Price    : $549.99
+   Stock    : 25
+   ---------------------
+   === Record 5 ===
+   Book ID  : 105
+   Title    : Web Development
+   Author   : Tom Harris
+   Price    : $399.0
+   Stock    : 30
+   ---------------------
+
+=== Exercise 2 ===
+========================================
+  EMPLOYEE RECORDS - RESULTSET NAVIGATION
+========================================
+
+--- NAVIGATION MENU ---
+1. Show First Record
+2. Show Last Record
+3. Show Next Record
+4. Show Previous Record
+5. Go to Record by Position
+6. Display All Records (One by One)
+7. Exit
+Enter choice: 
+   ===== Record 1 =====
+   Employee ID  : 101
+   Name         : Alice Johnson
+   Department   : Engineering
+   Salary       : $75000.00
+   --------------------------
+
+--- NAVIGATION MENU ---
+1. Show First Record
+2. Show Last Record
+3. Show Next Record
+4. Show Previous Record
+5. Go to Record by Position
+6. Display All Records (One by One)
+7. Exit
+Enter choice: 
+   ===== Record 6 =====
+   Employee ID  : 106
+   Name         : Frank Miller
+   Department   : Engineering
+   Salary       : $82000.00
+   --------------------------
+
+--- NAVIGATION MENU ---
+1. Show First Record
+2. Show Last Record
+3. Show Next Record
+4. Show Previous Record
+5. Go to Record by Position
+6. Display All Records (One by One)
+7. Exit
+Enter choice: Already at the last record.
+
+--- NAVIGATION MENU ---
+1. Show First Record
+2. Show Last Record
+3. Show Next Record
+4. Show Previous Record
+5. Go to Record by Position
+6. Display All Records (One by One)
+7. Exit
+Enter choice: 
+   ===== Record 5 =====
+   Employee ID  : 105
+   Name         : Eve Brown
+   Department   : HR
+   Salary       : $55000.00
+   --------------------------
+
+--- NAVIGATION MENU ---
+1. Show First Record
+2. Show Last Record
+3. Show Next Record
+4. Show Previous Record
+5. Go to Record by Position
+6. Display All Records (One by One)
+7. Exit
+Enter choice: 
+   ===== Record 6 =====
+   Employee ID  : 106
+   Name         : Frank Miller
+   Department   : Engineering
+   Salary       : $82000.00
+   --------------------------
+
+--- NAVIGATION MENU ---
+1. Show First Record
+2. Show Last Record
+3. Show Next Record
+4. Show Previous Record
+5. Go to Record by Position
+6. Display All Records (One by One)
+7. Exit
+Enter choice: Enter position (1 to 6): 
+   ===== Record 3 =====
+   Employee ID  : 103
+   Name         : Carol Davis
+   Department   : Finance
+   Salary       : $70000.00
+   --------------------------
+
+--- NAVIGATION MENU ---
+1. Show First Record
+2. Show Last Record
+3. Show Next Record
+4. Show Previous Record
+5. Go to Record by Position
+6. Display All Records (One by One)
+7. Exit
+Enter choice: 
+--- All Employee Records ---
+   ===== Employee 1 =====
+   Employee ID  : 101
+   Name         : Alice Johnson
+   Department   : Engineering
+   Salary       : $75000.00
+   ---------------------------
+   ===== Employee 2 =====
+   Employee ID  : 102
+   Name         : Bob Smith
+   Department   : Marketing
+   Salary       : $65000.00
+   ---------------------------
+   ===== Employee 3 =====
+   Employee ID  : 103
+   Name         : Carol Davis
+   Department   : Finance
+   Salary       : $70000.00
+   ---------------------------
+   ===== Employee 4 =====
+   Employee ID  : 104
+   Name         : David Wilson
+   Department   : IT
+   Salary       : $80000.00
+   ---------------------------
+   ===== Employee 5 =====
+   Employee ID  : 105
+   Name         : Eve Brown
+   Department   : HR
+   Salary       : $55000.00
+   ---------------------------
+   ===== Employee 6 =====
+   Employee ID  : 106
+   Name         : Frank Miller
+   Department   : Engineering
+   Salary       : $82000.00
+   ---------------------------
+   Total employees: 6
+
+--- NAVIGATION MENU ---
+1. Show First Record
+2. Show Last Record
+3. Show Next Record
+4. Show Previous Record
+5. Go to Record by Position
+6. Display All Records (One by One)
+7. Exit
+Enter choice: Exiting. Goodbye!
