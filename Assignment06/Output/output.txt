@@ -1,0 +1,64 @@
+=== VEHICLE PROGRAM - INNER CLASS & ANONYMOUS CLASS ===
+
+--- Inner Class Demo ---
+=== Vehicle Details ===
+Brand: Toyota
+Model: Camry
+Year: 2024
+=======================
+=== Vehicle Details ===
+Brand: Harley-Davidson
+Model: Street 750
+Year: 2023
+=======================
+--- Anonymous Class Demo ---
+Toyota Camry: Engine started. Vroom!
+Toyota Camry: Engine stopped.
+
+Harley-Davidson Street 750: Engine started. Vroom!
+Harley-Davidson Street 750: Engine stopped.
+
+=== CONCEPTS DEMONSTRATED ===
+1. Inner Class (DetailsDisplayer) - displays vehicle details
+2. Anonymous Class (startAction) - implements VehicleAction interface
+3. Anonymous Class (stopAction) - implements VehicleAction interface
+
+=== Exercise 2 ===
+=== FOOD DELIVERY APPLICATION ===
+
+--- Inner Class: Order Handler ---
+========== ORDER DETAILS ==========
+Order ID: #1001
+Restaurant: Pizza Palace
+Customer: Alice Johnson
+Items Ordered:
+  1. Margherita Pizza
+  2. Garlic Bread
+  3. Coke
+===================================
+
+--- Anonymous Classes: Delivery Status Updates ---
+[ORDER PLACED] Your order from Pizza Palace has been placed successfully!
+[PREPARING] Restaurant Pizza Palace is preparing your food...
+[OUT FOR DELIVERY] Your order is out for delivery to Alice Johnson!
+[DELIVERED] Order delivered to Alice Johnson. Enjoy your meal!
+
+========== ORDER DETAILS ==========
+Order ID: #1002
+Restaurant: Burger Barn
+Customer: Bob Smith
+Items Ordered:
+  1. Double Cheeseburger
+  2. French Fries
+  3. Milkshake
+===================================
+
+--- Anonymous Classes: Delivery Status Updates ---
+[ORDER PLACED] Your order from Burger Barn has been placed successfully!
+[PREPARING] Restaurant Burger Barn is preparing your food...
+[OUT FOR DELIVERY] Your order is out for delivery to Bob Smith!
+[DELIVERED] Order delivered to Bob Smith. Enjoy your meal!
+
+=== CONCEPTS DEMONSTRATED ===
+1. Inner Class (OrderHandler) - handles order details
+2. Anonymous Classes (DeliveryStatus) - handle status updates

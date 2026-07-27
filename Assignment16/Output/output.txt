@@ -1,0 +1,58 @@
+=== VOTING SYSTEM - USER-DEFINED EXCEPTION ===
+
+Name: Alice Johnson, Age: 22, Voter ID: VID101
+Vote cast successfully by Alice Johnson (Voter ID: VID101)
+
+Name: Bob Smith, Age: 16, Voter ID: VID102
+Cannot vote: Bob Smith is only 16 years old. Minimum voting age is 18!
+
+Name: Carol Davis, Age: 19, Voter ID: VID103
+Vote cast successfully by Carol Davis (Voter ID: VID103)
+
+Name: David Wilson, Age: 15, Voter ID: VID104
+Cannot vote: David Wilson is only 15 years old. Minimum voting age is 18!
+
+Name: Eve Brown, Age: 25, Voter ID: VID105
+Vote cast successfully by Eve Brown (Voter ID: VID105)
+
+--- Interactive Voter Registration ---
+Enter your name: Enter your age: Enter your Voter ID: Registration Failed: Frank Miller is only 17 years old. Minimum voting age is 18!
+
+=== KEY CONCEPTS ===
+1. Created custom UnderAgeException by extending Exception
+2. Thrown when voter age is below 18
+3. Caught and handled in the calling code
+
+=== Exercise 2 ===
+=== DRIVING LICENSE SYSTEM - USER-DEFINED EXCEPTION ===
+
+--- Sample Applications ---
+
+Processing application for: Alice Johnson
+Age: 22 - Eligible for driving license
+License Approved! Alice Johnson is issued a driving license.
+
+Application Rejected: Bob Smith is only 16 years old. Minimum age for driving license is 18!
+
+
+Processing application for: Carol Davis
+Age: 19 - Eligible for driving license
+Status: Must pass the driving test
+
+Application Rejected: David Wilson is only 17 years old. Minimum age for driving license is 18!
+
+
+Processing application for: Eve Brown
+Age: 25 - Eligible for driving license
+License Approved! Eve Brown is issued a driving license.
+
+--- New Application ---
+Enter your name: Enter your age: Do you have a learner permit? (yes/no): Have you passed the driving test? (yes/no): 
+Processing application for: Grace Lee
+Age: 20 - Eligible for driving license
+Status: Must pass the driving test
+
+=== KEY CONCEPTS ===
+1. Created custom LicenseAgeException by extending Exception
+2. Thrown when applicant age is below 18
+3. Caught and handled in processApplication()

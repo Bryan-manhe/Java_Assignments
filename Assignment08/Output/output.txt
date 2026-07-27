@@ -1,0 +1,64 @@
+=== EMPLOYEE & MANAGER - SUPER KEYWORD DEMO ===
+
+--- Employee Details ---
+Employee ID: 1001
+Name: Alice Johnson
+Department: IT
+Basic Salary: $50000.00
+Salary: $50000.00
+
+--- Manager Details ---
+Employee ID: 2001
+Name: Bob Smith
+Department: IT
+Basic Salary: $70000.00
+Bonus Percentage: 15.0%
+Team Size: 8 members
+Total Salary (with bonus): $80500.00
+
+--- Super Keyword Usage in Manager ---
+1. super(empId, name, department, basicSalary) -> Constructor
+2. super.displayDetails() -> Called parent method
+3. super.basicSalary -> Accessed parent field
+4. super.calculateSalary() -> Called parent method
+
+=== KEY CONCEPTS ===
+1. super() calls the parent class constructor
+2. super.method() calls the parent class method
+3. super.field accesses the parent class field
+
+=== Exercise 2 ===
+=== VEHICLE INSURANCE SYSTEM - SUPER KEYWORD DEMO ===
+
+--- CAR INSURANCE POLICY ---
+Policy Number: POL-1001
+Owner: Alice Johnson
+Registration: ABC-1234
+Model: Toyota Camry
+Year: 2022
+Purchase Price: $35000.00
+Coverage Type: Comprehensive
+Current Value: $21000.00
+Annual Premium: $1575.00
+
+--- BIKE INSURANCE POLICY ---
+Policy Number: POL-2001
+Owner: Bob Smith
+Registration: XYZ-5678
+Model: Harley Davidson Street 750
+Year: 2023
+Purchase Price: $15000.00
+Anti-Theft Device: Yes
+Current Value: $10500.00
+Annual Premium: $283.50
+
+=== Super Keyword Usage ===
+Registration: TEST-001
+Model: Generic
+Year: 2024
+Purchase Price: $20000.00
+
+Child classes used super to:
+1. Call parent constructor: super(registration, model, year, price)
+2. Call parent method: super.displayVehicleInfo()
+3. Call parent method for calculation: super.calculateCurrentValue()

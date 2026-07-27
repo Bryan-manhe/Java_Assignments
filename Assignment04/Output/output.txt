@@ -1,0 +1,56 @@
+=== STUDENT MARKS CALCULATOR USING WRAPPER CLASSES ===
+
+Converting String marks to Integer objects:
+  Subject 1: "85" -> 85
+  Subject 2: "90" -> 90
+  Subject 3: "78" -> 78
+  Subject 4: "92" -> 92
+  Subject 5: "88" -> 88
+
+--- Results ---
+Number of Subjects: 5
+Total Marks: 433
+Average Marks: 86.6
+
+--- Wrapper Class Features ---
+Max value from Integer: 2147483647
+Min value from Integer: -2147483648
+Total in Binary: 110110001
+Total in Hexadecimal: 1b1
+
+--- Input Validation ---
+Error: Cannot parse "abc" - For input string: "abc"
+
+=== WRAPPER CLASS CONCEPTS DEMONSTRATED ===
+1. Integer.parseInt() - String to primitive conversion
+2. Autoboxing - int to Integer automatically
+3. Auto-unboxing - Integer to int automatically
+4. Integer.MAX_VALUE / MIN_VALUE - Constants
+5. Integer.toBinaryString() / toHexString() - Format conversion
+
+=== Exercise 2 ===
+=== EMPLOYEE PAYROLL SYSTEM ===
+
+Enter Employee ID: Enter Employee Name: Enter Basic Salary: Enter Bonus Amount: Enter Tax Rate (%): 
+--- Processing Payroll ---
+
+--- Validation Results ---
+? Employee ID 1001 is valid
+? Basic salary $45000.00 is valid
+? Bonus $5000.00 is valid
+? Tax rate 10.0% is valid
+
+--- Payroll Calculation ---
+Employee: Alice Johnson (ID: 1001)
+Basic Salary: $45000.00
+Bonus: $5000.00
+Gross Salary: $50000.00
+Tax (10.0%): $5000.00
+Net Salary: $45000.00
+
+--- Wrapper Class Features Used ---
+Integer.valueOf(): "1001" -> Integer 1001
+Double.valueOf(): "45000.00" -> Double 45000.0
+Double comparison: basicSalary > 0 is true
+Double.isNaN() check: false
+Double.isInfinite() check: false

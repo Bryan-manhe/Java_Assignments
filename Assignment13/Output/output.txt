@@ -1,0 +1,44 @@
+=== EMPLOYEE FILE HANDLING SYSTEM ===
+
+--- Writing Employee Details to File ---
+Employee details written to 'employees.txt' successfully!
+
+Do you want to add a custom employee? (yes/no): --- Reading Employee Details from File ---
+===== EMPLOYEE RECORDS =====
+ID,Name,Department,Salary
+----------------------------------------
+101,Alice Johnson,Engineering,75000.00
+102,Bob Smith,Marketing,65000.00
+103,Carol Davis,Finance,70000.00
+104,David Wilson,IT,80000.00
+105,Eve Brown,HR,55000.00
+
+Total employee records (excluding headers): 5
+File size: 264 bytes
+File path: C:\Users\hp\Documents\Java_Assignments new\Assignment13\employees.txt
+
+Delete file? (yes/no): File 'employees.txt' preserved on disk.
+
+=== Exercise 2 ===
+=== PATIENT RECORD FILE HANDLING SYSTEM ===
+
+--- Writing Patient Details to File ---
+Patient details written to 'patients.txt' successfully!
+
+Add a new patient? (yes/no): --- Reading Patient Details from File ---
+
+===== PATIENT RECORDS =====
+PatientID    Name                 Age   Diagnosis
+----------------------------------------------------------
+P1001        Alice Johnson        35    Hypertension
+P1002        Bob Smith            28    Fractured Arm
+P1003        Carol Davis          45    Diabetes Type 2
+P1004        David Wilson         60    Heart Disease
+P1005        Eve Brown            22    Viral Infection
+
+--- File Statistics ---
+File name: patients.txt
+File size: 418 bytes
+Absolute path: C:\Users\hp\Documents\Java_Assignments new\Assignment13\patients.txt
+
+Delete file? (yes/no): File 'patients.txt' preserved on disk.

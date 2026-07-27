@@ -1,0 +1,51 @@
+=== ATM WITHDRAWAL SYSTEM ===
+
+Account: ACC1001
+Current Balance: $5000.00
+
+Enter withdrawal amount: $Withdrawal successful! Amount: $750.00
+Remaining balance: $4250.00
+
+--- Multiple Catch Example ---
+Processing withdrawal: $1000
+NumberFormatException caught: "abc" is not a valid number
+Cannot withdraw negative amount: -500
+Daily limit exceeded: 2000
+
+=== Exercise 2 ===
+=== ONLINE SHOPPING SYSTEM ===
+
+
+--- Available Products ---
+ID: 101 | Laptop | $899.99 | Stock: 10
+ID: 102 | Mouse | $29.99 | Stock: 50
+ID: 103 | Keyboard | $79.99 | Stock: 30
+ID: 104 | Monitor | $399.99 | Stock: 15
+ID: 105 | Headphones | $149.99 | Stock: 25
+--------------------------
+
+--- Options ---
+1. Add product to cart
+2. View cart
+3. Checkout & Exit
+Enter choice: Enter Product ID: Enter Quantity: Added 3 x Laptop to cart!
+
+--- Options ---
+1. Add product to cart
+2. View cart
+3. Checkout & Exit
+Enter choice: Enter Product ID: Enter Quantity: Added 1 x Monitor to cart!
+
+--- Options ---
+1. Add product to cart
+2. View cart
+3. Checkout & Exit
+Enter choice: 
+========== SHOPPING CART ==========
+  3 x Laptop = $2699.97
+  1 x Monitor = $399.99
+----------------------------------
+Total: $3099.96
+===================================
+
+Thank you for shopping with us!

@@ -1,0 +1,75 @@
+=== COLLEGE MANAGEMENT SYSTEM ===
+
+--- Students ---
+=== STUDENT DETAILS ===
+Roll Number: 101
+Name: Alice Johnson
+Course: Computer Science
+Semester: 4
+========================
+=== STUDENT DETAILS ===
+Roll Number: 102
+Name: Bob Smith
+Course: Mathematics
+Semester: 2
+========================
+=== STUDENT DETAILS ===
+Roll Number: 103
+Name: Carol Davis
+Course: Physics
+Semester: 6
+========================
+--- Faculty ---
+=== FACULTY DETAILS ===
+Faculty ID: 201
+Name: Dr. Williams
+Department: Computer Science
+Designation: Professor
+========================
+=== FACULTY DETAILS ===
+Faculty ID: 202
+Name: Dr. Anderson
+Department: Mathematics
+Designation: Associate Professor
+========================
+=== FACULTY DETAILS ===
+Faculty ID: 203
+Name: Dr. Taylor
+Department: Physics
+Designation: Assistant Professor
+========================
+
+=== PACKAGE STRUCTURE ===
+college.student.Student
+college.faculty.Faculty
+
+=== Exercise 2 ===
+=== LIBRARY MANAGEMENT SYSTEM ===
+
+=== BOOK DETAILS ===
+Book ID: 1001
+Title: Introduction to Java
+Author: John Smith
+Price: $59.99
+=====================
+=== BOOK DETAILS ===
+Book ID: 1002
+Title: Data Structures & Algorithms
+Author: Jane Doe
+Price: $45.50
+=====================
+=== BOOK DETAILS ===
+Book ID: 1003
+Title: Database Systems
+Author: Bob Wilson
+Price: $55.00
+=====================
+=== BOOK DETAILS ===
+Book ID: 1004
+Title: Operating Systems Concepts
+Author: Sarah Brown
+Price: $65.00
+=====================
+
+=== PACKAGE STRUCTURE ===
+library.Book

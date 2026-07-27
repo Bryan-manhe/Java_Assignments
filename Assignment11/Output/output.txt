@@ -1,0 +1,81 @@
+=== INTERFACE DEMONSTRATION - Printable ===
+
+Calling printDetails() via Printable reference:
+========== STUDENT RECORD ==========
+Roll No: 101
+Name: Alice Johnson
+Course: Computer Science
+Marks: 85.5
+Grade: A
+====================================
+
+========== EMPLOYEE RECORD =========
+Emp ID: 2001
+Name: Bob Smith
+Department: Engineering
+Salary: $6500.00
+Annual Package: $78000.00
+====================================
+
+--- Polymorphism: Printable Array ---
+Roll No: 102
+Name: Carol Davis
+Course: Mathematics
+Marks: 92.0
+Grade: A+
+---
+Emp ID: 2002
+Name: David Wilson
+Department: Marketing
+Salary: $5500.00
+Annual Package: $66000.00
+---
+Roll No: 103
+Name: Eve Brown
+Course: Physics
+Marks: 78.0
+Grade: B
+---
+
+=== KEY CONCEPTS ===
+1. Printable interface with abstract methods
+2. Student and Employee implement Printable
+3. Polymorphism via Printable reference
+
+=== Exercise 2 ===
+=== INTERFACE DEMONSTRATION - Switchable ===
+
+--- Operating Devices via Switchable Interface ---
+
+1. Turning ON all devices:
+? Living Room light turned ON (60W)
+? Bedroom light turned ON (40W)
+? Living Room fan turned ON at speed 1
+? Bathroom fan turned ON at speed 1
+
+2. Device Status:
+   Light at Living Room (60W): ON
+   Light at Bedroom (40W): ON
+   Fan at Living Room (5 speeds): ON (Speed 1)
+   Fan at Bathroom (3 speeds): ON (Speed 1)
+
+3. Fan-specific operation:
+? Living Room fan speed increased to 2
+? Living Room fan speed increased to 3
+
+4. Turning OFF all devices:
+? Living Room light turned OFF
+? Bedroom light turned OFF
+? Living Room fan turned OFF
+? Bathroom fan turned OFF
+
+5. Final Status:
+   Light at Living Room (60W): OFF
+   Light at Bedroom (40W): OFF
+   Fan at Living Room (5 speeds): OFF
+   Fan at Bathroom (3 speeds): OFF
+
+=== KEY CONCEPTS ===
+1. Switchable interface defines common device operations
+2. Light and Fan implement Switchable with unique behaviors
+3. Polymorphism via Switchable reference array

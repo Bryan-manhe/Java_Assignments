@@ -1,0 +1,47 @@
+========================================
+ASSIGNMENT 01: JAVA FUNDAMENTALS
+========================================
+
+--- JVM Information ---
+Java Version: 25.0.3
+Java Home: C:\Program Files\Eclipse Adoptium\jdk-25.0.3.9-hotspot
+JVM Name: OpenJDK 64-Bit Server VM
+JVM Version: 25.0.3+9-LTS
+========================
+
+--- Default Constructor ---
+Student Information:
+Name: Unknown
+Age: 0
+Course: Computer Science
+----------------------------
+--- Parameterized Constructor ---
+Student Information:
+Name: Alice Johnson
+Age: 20
+Course: Computer Science
+----------------------------
+Student Information:
+Name: Bob Smith
+Age: 22
+Course: Computer Science
+----------------------------
+Alice Johnson was born in: 2006
+--- Static Variable Demonstration ---
+Original course: Computer Science
+Modified course: Software Engineering
+Student Information:
+Name: Unknown
+Age: 0
+Course: Software Engineering
+----------------------------
+
+========================================
+KEY CONCEPTS DEMONSTRATED:
+1. JDK - Java Development Kit (javac compiler)
+2. JRE - Java Runtime Environment (java runtime)
+3. JVM - Java Virtual Machine (platform independence)
+4. Variables - Local, Instance, Static
+5. Methods - Return type, void, static, parameterized
+6. Constructors - Default, Parameterized
+========================================

@@ -1,0 +1,43 @@
+=== PAYMENT SYSTEM - ABSTRACT CLASS DEMO ===
+
+Select Payment Method:
+1. Credit Card
+2. UPI
+Enter choice: Enter amount: $Enter UPI ID (e.g., name@bank): Enter UPI PIN: 
+--- Processing UPI Payment ---
+UPI ID: alice@pay
+Connecting to UPI server...
+Verifying UPI PIN...
+Processing payment of $99.99...
+Payment successful via UPI!
+Transaction ID: TXN10001
+Amount: $99.99
+Payment Status: Successful
+
+=== KEY CONCEPTS ===
+1. Abstract class Payment with abstract method processPayment()
+2. CreditCardPayment and UPIPayment provide implementations
+3. Polymorphism - Payment reference used for both implementations
+
+=== Exercise 2 ===
+=== FOOD ORDER SYSTEM - ABSTRACT CLASS DEMO ===
+
+Select Order Type:
+1. Dine-In
+2. Takeaway
+Enter choice: Enter Customer Name: Enter Food Amount: $Enter Table Number: Enter Number of Guests: --- DINE-IN ORDER ---
+Order ID: #501
+Customer: Alice Johnson
+Food Amount: $65.50
+Table Number: 5
+Guests: 3
+Service Charge (10%): $6.55
+GST (5%): $3.28
+
+Total Bill: $75.33
+Payment Status: Pending
+
+=== KEY CONCEPTS ===
+1. Abstract class FoodOrder with abstract method calculateBill()
+2. DineInOrder and TakeAwayOrder provide specific implementations
+3. Polymorphism via FoodOrder reference

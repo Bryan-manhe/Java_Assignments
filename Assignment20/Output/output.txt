@@ -1,0 +1,213 @@
+=== EMPLOYEE CRUD OPERATIONS ===
+
+Connected to database successfully!
+
+Table 'employees' ready.
+
+--- CRUD MENU ---
+1. CREATE (Add Employee)
+2. READ (View Employees)
+3. UPDATE (Modify Employee)
+4. DELETE (Remove Employee)
+5. Exit
+Enter choice: 
+--- View Employees ---
+Emp ID   Name                 Department      Designation     Salary    
+------------------------------------------------------------------------
+No employees found.
+
+--- CRUD MENU ---
+1. CREATE (Add Employee)
+2. READ (View Employees)
+3. UPDATE (Modify Employee)
+4. DELETE (Remove Employee)
+5. Exit
+Enter choice: 
+--- Add New Employee ---
+Enter Employee ID: Enter Name: Enter Department: Enter Designation: Enter Salary: 1 employee(s) added successfully!
+
+--- CRUD MENU ---
+1. CREATE (Add Employee)
+2. READ (View Employees)
+3. UPDATE (Modify Employee)
+4. DELETE (Remove Employee)
+5. Exit
+Enter choice: 
+--- View Employees ---
+Emp ID   Name                 Department      Designation     Salary    
+------------------------------------------------------------------------
+301      John Doe             IT              Developer       $75000.00 
+
+--- CRUD MENU ---
+1. CREATE (Add Employee)
+2. READ (View Employees)
+3. UPDATE (Modify Employee)
+4. DELETE (Remove Employee)
+5. Exit
+Enter choice: 
+--- Update Employee ---
+Enter Employee ID to update: Enter new Department: Enter new Designation: Enter new Salary: 1 employee(s) updated!
+
+--- CRUD MENU ---
+1. CREATE (Add Employee)
+2. READ (View Employees)
+3. UPDATE (Modify Employee)
+4. DELETE (Remove Employee)
+5. Exit
+Enter choice: 
+--- View Employees ---
+Emp ID   Name                 Department      Designation     Salary    
+------------------------------------------------------------------------
+301      John Doe             Engineering     Senior Developer $85000.00 
+
+--- CRUD MENU ---
+1. CREATE (Add Employee)
+2. READ (View Employees)
+3. UPDATE (Modify Employee)
+4. DELETE (Remove Employee)
+5. Exit
+Enter choice: 
+--- Delete Employee ---
+Enter Employee ID to delete: 1 employee(s) deleted!
+
+--- CRUD MENU ---
+1. CREATE (Add Employee)
+2. READ (View Employees)
+3. UPDATE (Modify Employee)
+4. DELETE (Remove Employee)
+5. Exit
+Enter choice: 
+--- View Employees ---
+Emp ID   Name                 Department      Designation     Salary    
+------------------------------------------------------------------------
+No employees found.
+
+--- CRUD MENU ---
+1. CREATE (Add Employee)
+2. READ (View Employees)
+3. UPDATE (Modify Employee)
+4. DELETE (Remove Employee)
+5. Exit
+Enter choice: Exiting Employee Management System. Goodbye!
+
+=== CRUD OPERATIONS DEMONSTRATED ===
+1. CREATE - INSERT INTO employees
+2. READ   - SELECT * FROM employees
+3. UPDATE - UPDATE employees SET ...
+4. DELETE - DELETE FROM employees
+5. PreparedStatement for parameterized queries
+
+=== Exercise 2 ===
+=== STUDENT CRUD OPERATIONS ===
+
+Connected to database successfully!
+
+Table 'students' ready.
+
+--- CRUD MENU ---
+1. CREATE (Add Student)
+2. READ (View Students)
+3. UPDATE (Modify Student)
+4. DELETE (Remove Student)
+5. Search Student by Name
+6. Exit
+Enter choice: 
+--- View All Students ---
+Roll No      Name                 Course               Marks    Grade 
+------------------------------------------------------------
+101          Alice Updated        Data Science         91.0     A+    
+102          Bob Smith            Mathematics          75.0     B     
+201          David Miller         Chemistry            85.5     A     
+
+--- CRUD MENU ---
+1. CREATE (Add Student)
+2. READ (View Students)
+3. UPDATE (Modify Student)
+4. DELETE (Remove Student)
+5. Search Student by Name
+6. Exit
+Enter choice: 
+--- Add New Student ---
+Enter Roll Number: Enter Name: Enter Course: Enter Marks: Error: Roll number 201 already exists!
+
+--- CRUD MENU ---
+1. CREATE (Add Student)
+2. READ (View Students)
+3. UPDATE (Modify Student)
+4. DELETE (Remove Student)
+5. Search Student by Name
+6. Exit
+Enter choice: 
+--- View All Students ---
+Roll No      Name                 Course               Marks    Grade 
+------------------------------------------------------------
+101          Alice Updated        Data Science         91.0     A+    
+102          Bob Smith            Mathematics          75.0     B     
+201          David Miller         Chemistry            85.5     A     
+
+--- CRUD MENU ---
+1. CREATE (Add Student)
+2. READ (View Students)
+3. UPDATE (Modify Student)
+4. DELETE (Remove Student)
+5. Search Student by Name
+6. Exit
+Enter choice: 
+--- Update Student ---
+Enter Roll Number to update: Enter new Name: Enter new Course: Enter new Marks: Student updated successfully!
+
+--- CRUD MENU ---
+1. CREATE (Add Student)
+2. READ (View Students)
+3. UPDATE (Modify Student)
+4. DELETE (Remove Student)
+5. Search Student by Name
+6. Exit
+Enter choice: 
+--- Search Student ---
+Enter name to search: Roll No      Name                 Course               Marks   
+------------------------------------------------------
+101          Alice Updated        Data Science         91.0    
+
+--- CRUD MENU ---
+1. CREATE (Add Student)
+2. READ (View Students)
+3. UPDATE (Modify Student)
+4. DELETE (Remove Student)
+5. Search Student by Name
+6. Exit
+Enter choice: 
+--- Delete Student ---
+Enter Roll Number to delete: Student with roll number 103 not found.
+
+--- CRUD MENU ---
+1. CREATE (Add Student)
+2. READ (View Students)
+3. UPDATE (Modify Student)
+4. DELETE (Remove Student)
+5. Search Student by Name
+6. Exit
+Enter choice: 
+--- View All Students ---
+Roll No      Name                 Course               Marks    Grade 
+------------------------------------------------------------
+101          Alice Updated        Data Science         91.0     A+    
+102          Bob Smith            Mathematics          75.0     B     
+201          David Miller         Chemistry            85.5     A     
+
+--- CRUD MENU ---
+1. CREATE (Add Student)
+2. READ (View Students)
+3. UPDATE (Modify Student)
+4. DELETE (Remove Student)
+5. Search Student by Name
+6. Exit
+Enter choice: Exiting Student Management System. Goodbye!
+
+=== CRUD OPERATIONS DEMONSTRATED ===
+1. CREATE - INSERT INTO students
+2. READ   - SELECT * FROM students
+3. UPDATE - UPDATE students SET ...
+4. DELETE - DELETE FROM students
+5. SEARCH - SELECT with LIKE
+6. PreparedStatement prevents SQL injection

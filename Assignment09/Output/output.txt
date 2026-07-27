@@ -1,0 +1,98 @@
+=== BANK ACCOUNT - FINAL KEYWORD DEMO ===
+
+--- Final Variable Demo ---
+Account Number: ACC1001
+Account Holder: Alice Johnson
+Balance: $5000.00
+(Note: accountNumber is final - cannot be modified after creation)
+
+Account Number: ACC1002
+Account Holder: Bob Smith
+Balance: $10000.00
+(Note: accountNumber is final - cannot be modified after creation)
+
+--- Transactions ---
+Deposited: $2500.00
+Withdrawn: $1000.00
+Account Number: ACC1001
+Account Holder: Alice Johnson
+Balance: $6500.00
+(Note: accountNumber is final - cannot be modified after creation)
+
+--- Final Variable in Subclass ---
+Account Number: ACC1003
+Account Holder: Carol Davis
+Balance: $20000.00
+(Note: accountNumber is final - cannot be modified after creation)
+Interest Rate: 4.5%
+
+=== KEY CONCEPTS ===
+1. final variable: accountNumber cannot be reassigned
+2. final variable: interestRate cannot be changed
+3. final class: FixedDepositAccount cannot be extended
+(Uncommenting class PremiumFD would show compilation error)
+
+=== Exercise 2 ===
+=== LIBRARY BOOK MANAGEMENT SYSTEM ===
+
+Library: Central Library
+Location: Main Campus
+
+--- Book Records ---
+==================================
+Library: Central Library | Main Campus
+==================================
+ISBN: 978-0-13-468599-1 (final - cannot be changed)
+Title: Introduction to Java
+Author: John Smith
+Price: $59.99
+==================================
+
+==================================
+Library: Central Library | Main Campus
+==================================
+ISBN: 978-0-13-652010-8 (final - cannot be changed)
+Title: Data Structures & Algorithms
+Author: Jane Doe
+Price: $45.50
+==================================
+
+==================================
+Library: Central Library | Main Campus
+==================================
+ISBN: 978-0-13-468739-9 (final - cannot be changed)
+Title: Database Systems
+Author: Bob Wilson
+Price: $55.00
+==================================
+
+--- Attempt to Modify Final Fields (Demonstration) ---
+ISBN for book1: 978-0-13-468599-1
+After price update:
+==================================
+Library: Central Library | Main Campus
+==================================
+ISBN: 978-0-13-468599-1 (final - cannot be changed)
+Title: Introduction to Java
+Author: John Smith
+Price: $49.99
+==================================
+
+(Note: ISBN remains unchanged - 'final' prevents modification)
+--- Reference Book (Subclass) ---
+==================================
+Library: Central Library | Main Campus
+==================================
+ISBN: 978-0-13-468599-2 (final - cannot be changed)
+Title: Java Complete Reference
+Author: Herbert Schildt
+Price: $69.99
+==================================
+
+Edition: 12
+(Reference books cannot be borrowed out)
+=== KEY CONCEPTS ===
+1. final variable: isbn - cannot be reassigned
+2. static final constant: LIBRARY_NAME, LIBRARY_LOCATION
+3. final method: getISBN() - cannot be overridden
+(Uncommenting override would show compilation error)

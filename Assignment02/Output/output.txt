@@ -1,0 +1,66 @@
+=== STUDENT DETAILS USING CONSTRUCTORS ===
+
+1. Default Constructor:
+Student Name: Not Assigned
+Roll Number: 0
+----------------------
+2. Parameterized Constructor:
+Student Name: Alice Johnson
+Roll Number: 101
+----------------------
+Student Name: Bob Smith
+Roll Number: 102
+----------------------
+Student Name: Carol Davis
+Roll Number: 103
+----------------------
+
+=== Exercise 2 ===
+=== MOBILE PHONE INVENTORY SYSTEM ===
+
+1. Default Constructor (Empty Record):
+Brand: Unknown
+Model: Unknown
+Price: $0.0
+Stock Quantity: 0
+------------------------
+2. Parameterized Constructor:
+Brand: Apple
+Model: iPhone 15 Pro
+Price: $1099.99
+Stock Quantity: 50
+------------------------
+Brand: Samsung
+Model: Galaxy S24
+Price: $899.99
+Stock Quantity: 75
+------------------------
+Brand: Google
+Model: Pixel 8
+Price: $699.99
+Stock Quantity: 30
+------------------------
+3. Copy Constructor (Duplicate Record):
+Brand: Apple
+Model: iPhone 15 Pro
+Price: $1099.99
+Stock Quantity: 50
+------------------------
+4. Stock Update - Original Modified, Copy Unaffected:
+Original (iPhone 15 Pro) after adding 10 units:
+Brand: Apple
+Model: iPhone 15 Pro
+Price: $1099.99
+Stock Quantity: 60
+------------------------
+Copy (iPhone 15 Pro) - unchanged:
+Brand: Apple
+Model: iPhone 15 Pro
+Price: $1099.99
+Stock Quantity: 50
+------------------------
+
+=== CONSTRUCTOR TYPES DEMONSTRATED ===
+1. Default Constructor - initializes with default values
+2. Parameterized Constructor - initializes with specific values
+3. Copy Constructor - creates a duplicate object

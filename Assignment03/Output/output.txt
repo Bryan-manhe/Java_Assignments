@@ -1,0 +1,66 @@
+=== CALCULATOR WITH METHOD OVERLOADING ===
+
+--- Integer Addition ---
+add(10, 20) = 30
+add(5, 15, 25) = 45
+add(100, 200) = 300
+add(1, 2, 3) = 6
+
+--- Decimal Addition ---
+add(10.5, 20.3) = 30.8
+add(5.1, 15.2, 25.3) = 45.599999999999994
+add(99.99, 0.01) = 100.0
+add(1.5, 2.5, 3.5) = 7.5
+
+--- Calculation Statistics ---
+Total calculations performed: 8
+
+Accessing static method via class name:
+Exercise1.getCalculationCount() = 8
+
+=== Exercise 2 ===
+=== RESTAURANT BILLING APPLICATION ===
+
+Method Overloading Demo: Same method name 'calculateBill'
+with different parameters for different order types.
+
+--- Order 1: Dine-In ---
+  Dine-in Order #1001 for Alice
+  Food Amount: $45.50
+  Service Charge (10%): $4.55
+  GST (5%): $2.28
+  Total Bill: $52.32
+
+--- Order 2: Takeaway ---
+  Takeaway Order #1002 for Bob
+  Food Amount: $32.00
+  Packaging Charge: $2.50
+  GST (5%): $1.60
+  Total Bill: $36.10
+
+--- Order 3: Delivery ---
+  Delivery Order #1003 for Carol
+  Food Amount: $55.00
+  Service Charge (8%): $4.40
+  Delivery Fee: $3.50
+  Distance: 5.0 km
+  Distance Charge: $10.00
+  GST (5%): $2.75
+  Total Bill: $75.65
+
+--- Order 4: Dine-In ---
+  Dine-in Order #1004 for David
+  Food Amount: $28.75
+  Service Charge (10%): $2.88
+  GST (5%): $1.44
+  Total Bill: $33.06
+
+========================================
+RESTAURANT SUMMARY (Static Variables)
+========================================
+Total Orders Processed: 4
+Total Revenue: $197.14
+
+Accessing static members via class name:
+Exercise2.getTotalOrders() = 4
+Exercise2.getTotalRevenue() = $197.14

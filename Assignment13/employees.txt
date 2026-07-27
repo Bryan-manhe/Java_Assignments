@@ -1,0 +1,8 @@
+===== EMPLOYEE RECORDS =====
+ID,Name,Department,Salary
+----------------------------------------
+101,Alice Johnson,Engineering,75000.00
+102,Bob Smith,Marketing,65000.00
+103,Carol Davis,Finance,70000.00
+104,David Wilson,IT,80000.00
+105,Eve Brown,HR,55000.00

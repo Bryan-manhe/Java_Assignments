@@ -1,0 +1,84 @@
+=== STUDENT RECORDS - DATABASE SELECT DEMO ===
+
+Connected to database successfully!
+
+--- SELECT * FROM students ---
+Roll No      Name                 Course               Semester   Marks   
+--------------------------------------------------------------
+101          Alice Johnson        Computer Science     4          88.5    
+102          Bob Smith            Mathematics          2          75.0    
+103          Carol Davis          Physics              6          92.0    
+104          David Wilson         Chemistry            3          81.5    
+105          Eve Brown            Biology              5          79.0    
+106          Frank Miller         Computer Science     2          95.5    
+107          Grace Lee            Mathematics          4          68.0    
+
+--- Students with marks > 80 ---
+Roll No      Name                 Marks     
+------------------------------------------
+106          Frank Miller         95.5      
+103          Carol Davis          92.0      
+101          Alice Johnson        88.5      
+104          David Wilson         81.5      
+
+--- Aggregate Functions ---
+Course                 Students   Avg Marks 
+------------------------------------------
+Biology                1          79.0      
+Chemistry              1          81.5      
+Computer Science       2          92.0      
+Mathematics            2          71.5      
+Physics                1          92.0      
+
+Total student records: 7
+
+=== Exercise 2 ===
+=== PRODUCT DETAILS - DATABASE SELECT DEMO ===
+
+Connected to database successfully!
+
+--- All Products (SELECT * FROM products) ---
+Prod ID      Product Name           Category        Qty        Price     
+----------------------------------------------------------------
+201          Laptop Pro             Electronics     25         $1299.99  
+202          Wireless Mouse         Electronics     100        $29.99    
+203          Cotton T-Shirt         Clothing        150        $19.99    
+204          Denim Jeans            Clothing        80         $49.99    
+205          Organic Milk           Grocery         200        $4.99     
+206          Basmati Rice           Grocery         300        $12.99    
+207          Bluetooth Speaker      Electronics     60         $79.99    
+208          Running Shoes          Clothing        45         $89.99    
+
+--- Products by Category ---
+
+Category: Clothing
+  ID           Name                   Qty        Price     
+  203          Cotton T-Shirt         150        $19.99    
+  204          Denim Jeans            80         $49.99    
+  208          Running Shoes          45         $89.99    
+
+Category: Electronics
+  ID           Name                   Qty        Price     
+  201          Laptop Pro             25         $1299.99  
+  202          Wireless Mouse         100        $29.99    
+  207          Bluetooth Speaker      60         $79.99    
+
+Category: Grocery
+  ID           Name                   Qty        Price     
+  205          Organic Milk           200        $4.99     
+  206          Basmati Rice           300        $12.99    
+
+--- Low Stock Products (quantity < 50) ---
+ID           Name                   Qty       
+------------------------------------------
+201          Laptop Pro             25        
+208          Running Shoes          45        
+
+--- Summary Statistics ---
+Category        Items    Total Qty    Min Price    Max Price   
+------------------------------------------------------------
+Clothing        3        275          $19.99       $89.99      
+Electronics     3        185          $29.99       $1299.99    
+Grocery         2        500          $4.99        $12.99      
+
+Total products: 8

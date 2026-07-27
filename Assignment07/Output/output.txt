@@ -1,0 +1,62 @@
+=== SHAPE AREA CALCULATOR - INHERITANCE DEMO ===
+
+--- Circle ---
+Radius: 7.5
+Shape Color: Red
+Area: 176.71
+
+--- Rectangle ---
+Length: 10.0, Width: 6.0
+Shape Color: Blue
+Area: 60.00
+
+--- Polymorphism: Shape reference ---
+Shape Color: Green
+Area: 78.54
+
+Shape Color: Yellow
+Area: 36.00
+
+=== KEY CONCEPTS ===
+1. Inheritance: Circle and Rectangle extend Shape
+2. Method Overriding: calculateArea() in both subclasses
+3. Polymorphism: Shape reference can hold any subclass
+
+=== Exercise 2 ===
+=== E-COMMERCE PRODUCT SYSTEM ===
+
+[ELECTRONIC] ID: 101 | Laptop Pro | $1200.00 | Brand: TechBrand | Warranty: 24 months
+  Original Price: $1200.00
+  Discounted Price: $1080.00
+  In Stock: Yes
+
+[ELECTRONIC] ID: 102 | SmartPhone X | $899.99 | Brand: MobileTech | Warranty: 12 months
+  Original Price: $899.99
+  Discounted Price: $809.99
+  In Stock: Yes
+
+[CLOTHING] ID: 201 | Cotton Shirt | $39.99 | Size: L | Material: Cotton
+  Original Price: $39.99
+  Discounted Price: $33.99
+  In Stock: Yes
+
+[CLOTHING] ID: 202 | Denim Jeans | $59.99 | Size: M | Material: Denim
+  Original Price: $59.99
+  Discounted Price: $50.99
+  In Stock: Yes
+
+[GROCERY] ID: 301 | Organic Milk | $4.99 | Expiry: 2026-08-15 | Perishable: Yes
+  Original Price: $4.99
+  Discounted Price: $3.99
+  In Stock: Yes
+
+[GROCERY] ID: 302 | Basmati Rice | $12.99 | Expiry: 2027-01-01 | Perishable: No
+  Original Price: $12.99
+  Discounted Price: $12.34
+  In Stock: Yes
+
+=== KEY CONCEPTS ===
+1. Inheritance: All products extend Product base class
+2. Interface: All products implement ProductInterface
+3. Polymorphism: ProductInterface reference for all product types
+4. Method Overriding: calculateDiscountPrice() per category

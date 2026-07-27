@@ -1,0 +1,143 @@
+=== TO-DO LIST APPLICATION ===
+
+Task added: Complete Java assignment
+Task added: Study for math exam
+Task added: Buy groceries
+Task added: Call parents
+Task added: Read Chapter 5
+
+--- TO-DO LIST ---
+1. Complete Java assignment
+2. Study for math exam
+3. Buy groceries
+4. Call parents
+5. Read Chapter 5
+------------------
+
+--- Interactive Operations ---
+Enter a new task to add: Task added: Practice coding
+
+--- TO-DO LIST ---
+1. Complete Java assignment
+2. Study for math exam
+3. Buy groceries
+4. Call parents
+5. Read Chapter 5
+6. Practice coding
+------------------
+
+Enter task number to remove: Task removed: 2. Study for math exam
+
+--- TO-DO LIST ---
+1. Complete Java assignment
+2. Buy groceries
+3. Call parents
+4. Read Chapter 5
+5. Practice coding
+------------------
+
+Total tasks remaining: 5
+
+=== DEMONSTRATION COMPLETE ===
+ArrayList: Dynamic storage of tasks
+StringBuffer: Efficient display formatting
+
+=== Exercise 2 ===
+=== STUDENT COURSE REGISTRATION SYSTEM ===
+
+Enter Student Name: Enter Student ID: 
+Welcome, Alice Johnson! Let's register your courses.
+
+--- MENU ---
+1. Add Course
+2. Remove Course
+3. View All Courses
+4. Check Course Registration
+5. Exit
+Enter your choice: Enter course name to add: Course "Data Structures" added successfully.
+
+--- MENU ---
+1. Add Course
+2. Remove Course
+3. View All Courses
+4. Check Course Registration
+5. Exit
+Enter your choice: Enter course name to add: Course "Algorithms" added successfully.
+
+--- MENU ---
+1. Add Course
+2. Remove Course
+3. View All Courses
+4. Check Course Registration
+5. Exit
+Enter your choice: Enter course name to add: Course "Operating Systems" added successfully.
+
+--- MENU ---
+1. Add Course
+2. Remove Course
+3. View All Courses
+4. Check Course Registration
+5. Exit
+Enter your choice: Enter course name to add: Course "Database Systems" added successfully.
+
+--- MENU ---
+1. Add Course
+2. Remove Course
+3. View All Courses
+4. Check Course Registration
+5. Exit
+Enter your choice: 
+==================================
+REGISTERED COURSES FOR ALICE JOHNSON
+Student ID: 101
+==================================
+Total Courses: 4
+----------------------------------
+1. Data Structures
+2. Algorithms
+3. Operating Systems
+4. Database Systems
+==================================
+
+--- MENU ---
+1. Add Course
+2. Remove Course
+3. View All Courses
+4. Check Course Registration
+5. Exit
+Enter your choice: Enter course name to check: Yes, "Operating Systems" is registered.
+
+--- MENU ---
+1. Add Course
+2. Remove Course
+3. View All Courses
+4. Check Course Registration
+5. Exit
+Enter your choice: Enter course name to remove: Course "Database Systems" removed successfully.
+
+--- MENU ---
+1. Add Course
+2. Remove Course
+3. View All Courses
+4. Check Course Registration
+5. Exit
+Enter your choice: 
+==================================
+REGISTERED COURSES FOR ALICE JOHNSON
+Student ID: 101
+==================================
+Total Courses: 3
+----------------------------------
+1. Data Structures
+2. Algorithms
+3. Operating Systems
+==================================
+
+--- MENU ---
+1. Add Course
+2. Remove Course
+3. View All Courses
+4. Check Course Registration
+5. Exit
+Enter your choice: Exiting registration system. Goodbye!
+

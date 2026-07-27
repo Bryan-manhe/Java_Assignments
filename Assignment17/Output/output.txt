@@ -1,0 +1,14 @@
+Assignment 17 - Swing GUI Applications
+======================================
+
+Exercise 1: Student Registration Form
+Exercise 2: Employee Registration Form
+
+These are GUI applications using Java Swing.
+To see the output, run:
+  cd Assignment17 && java Exercise1
+  cd Assignment17 && java Exercise2
+
+The programs compile without errors.
+
+Compilation verified: OK

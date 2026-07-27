@@ -1,0 +1,41 @@
+=== LOGIN SYSTEM - throw, throws, finally ===
+
+Enter username: Enter password: 
+Attempt 1 of 3
+Verifying credentials...
+Login Failed: Invalid password for user: admin
+Remaining attempts: 2
+--- Finally: Login attempt completed. ---
+
+Enter username: Enter password: 
+Attempt 2 of 3
+Verifying credentials...
+Login successful! Welcome, admin!
+--- Finally: Login attempt completed. ---
+
+--- Demonstrating 'finally' always executes ---
+1. Inside try block
+2. About to return, but finally will execute first...
+3. FINALLY BLOCK: This always executes even after return!
+
+=== Exercise 2 ===
+=== ATM PIN VERIFICATION SYSTEM ===
+
+(Using throw, throws, and finally)
+
+--- Step 1: PIN Verification ---
+Enter 4-digit PIN: PIN verified successfully!
+Current balance: $5000.00
+
+--- Step 2: Withdrawal ---
+Enter withdrawal amount: $Withdrawal of $250.00 successful!
+Remaining balance: $4750.00
+
+========================================
+FINALLY: PIN verification process completed.
+This message always appears.
+========================================
+
+--- Demonstration: finally with System.exit() ---
+'finally' does NOT execute if System.exit() is called
+but it DOES execute even if return is called.

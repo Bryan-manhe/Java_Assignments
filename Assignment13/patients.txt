@@ -1,0 +1,8 @@
+===== PATIENT RECORDS =====
+PatientID    Name                 Age   Diagnosis
+----------------------------------------------------------
+P1001        Alice Johnson        35    Hypertension
+P1002        Bob Smith            28    Fractured Arm
+P1003        Carol Davis          45    Diabetes Type 2
+P1004        David Wilson         60    Heart Disease
+P1005        Eve Brown            22    Viral Infection
