@@ -1,72 +1,94 @@
-# Java Assignments - Complete Collection (Assignment 01 to Assignment 20)
+# Java Assignments
 
-This repository contains 20 Java programming assignments covering fundamental to advanced Java concepts.
+A hands-on collection of Java exercises covering core language concepts, object-oriented programming, GUI basics, database access, concurrency, and networking. The repository is organized by assignment so each topic can be explored independently.
 
-## Assignments Overview
+> **Learning project:** These exercises are intended for practice and demonstration. They are not presented as a production-ready backend application.
 
-| Assignment | Topic | Exercises |
-|------------|-------|-----------|
-| **01** | Java Environment, JDK/JRE/JVM, Variables, Methods, Constructors | Concepts demonstration |
-| **02** | Constructors (Default, Parameterized, Copy) | Student class, Mobile Phone Inventory |
-| **03** | Method Overloading & Static Members | Calculator, Restaurant Billing |
-| **04** | Wrapper Classes | Student Marks, Employee Payroll |
-| **05** | ArrayList, Vector, StringBuffer | To-Do List, Course Registration |
-| **06** | Inner Class & Anonymous Class | Vehicle program, Food Delivery |
-| **07** | Inheritance & Interfaces | Shape area, E-Commerce System |
-| **08** | Super Keyword | Employee/Manager, Vehicle Insurance |
-| **09** | Final Keyword | Bank Account, Library Book Management |
-| **10** | Abstract Classes & Methods | Payment System, Food Order System |
-| **11** | Interfaces | Printable (Student/Employee), Switchable (Light/Fan) |
-| **12** | User-Defined Packages | College Management, Library Package |
-| **13** | File Handling | Employee file, Patient file |
-| **14** | Exception Handling (try-catch) | ATM Withdrawal, Online Shopping |
-| **15** | finally, throw, throws | Login System, ATM PIN Verification |
-| **16** | User-Defined Exceptions | Voting System, Driving License |
-| **17** | Swing & Applets | Student Registration Form, Employee Registration Form |
-| **18** | Button Click Event Handling | GUI Calculator, Bank Balance Calculator |
-| **19** | JDBC SELECT Operation | Student Records, Product Details |
-| **20** | JDBC CRUD Operations | Employee CRUD, Student CRUD |
+## Topics covered
 
-## How to Compile and Run
+| Assignments | Topics |
+|---|---|
+| 01–04 | JDK/JRE/JVM, variables, methods, constructors, overloading, wrapper classes |
+| 05–08 | Collections, strings, inner and anonymous classes, inheritance, interfaces, `super` |
+| 09–12 | `final`, abstract classes, interfaces, packages |
+| 13–16 | File handling, exception handling, custom exceptions |
+| 17–18 | Swing GUI basics and event handling |
+| 19–22 | JDBC, database queries, CRUD operations, `DriverManager`, `PreparedStatement`, `ResultSet` |
+| 23–24 | Swing with JDBC and multithreading (`Thread`, `Runnable`) |
+| 25–27 | Socket programming, chat applications, and Java RMI |
+| 28–30 | JSP fundamentals and JSP-based CRUD exercises |
 
-### Non-GUI Assignments (01-16, 19-20)
+See the assignment folders for the individual exercise source files and any included output examples.
+
+## Tech stack
+
+- **Language:** Java
+- **Version:** Java 17 or later is the intended baseline for the core exercises; older APIs such as applets are included only as historical learning material and may not run on modern JDKs.
+- **Database exercises:** H2 database (the repository includes `h2.jar`)
+- **GUI exercises:** Java Swing
+- **Web exercises:** JSP basics
+
+## Prerequisites
+
+1. Install a JDK and verify the installation:
+   ```bash
+   java -version
+   javac -version
+   ```
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/Bryan-manhe/Java_Assignments.git
+   cd Java_Assignments
+   ```
+3. Open the folder for the assignment you want to run. Check the source file's class name before compiling.
+
+## Compile and run a basic exercise
+
+From an assignment directory, use the filename and class name that match the exercise:
+
 ```bash
-cd AssignmentXX
-javac FileName.java
-java FileName
-```
-
-### JDBC Assignments (19-20)
-```bash
-cd Assignment19
-javac -cp "../h2.jar;." Exercise1.java
-java -cp "../h2.jar;." Exercise1
-```
-
-### GUI Assignments (17-18)
-```bash
-cd Assignment17
 javac Exercise1.java
 java Exercise1
 ```
 
-## Project Structure
-```
-Java_Assignments/
-├── Assignment01/    through    ├── Assignment20/
-│   ├── Exercise1.java              ├── Exercise1.java
-│   ├── Exercise2.java              ├── Exercise2.java
-│   └── Output/                     └── Output/
-│       └── output.txt                  └── output.txt
-├── h2.jar           (JDBC assignments dependency)
-├── README.md
-└── ...
+Some exercises use different filenames, packages, external dependencies, a GUI, a database, or a server. Follow the requirements of that specific exercise rather than assuming every file runs with the same command.
+
+### JDBC exercises
+
+The repository includes an H2 JAR. On Windows, a typical classpath command is:
+
+```powershell
+javac -cp "../h2.jar;." Exercise1.java
+java -cp "../h2.jar;." Exercise1
 ```
 
-## Requirements
-- Java 17 or higher
-- For JDBC assignments: H2 database (included as h2.jar)
-- For GUI assignments: Java Swing (included in JDK)
+On macOS or Linux, use a colon (`:`) instead of a semicolon (`;`) in the classpath:
+
+```bash
+javac -cp "../h2.jar:." Exercise1.java
+java -cp "../h2.jar:." Exercise1
+```
+
+Run database exercises from the directory and with the class name specified by that exercise. GUI programs need a graphical desktop; networking and JSP/RMI examples may require additional setup.
+
+## Repository structure
+
+```text
+Java_Assignments/
+├── Assignment01/
+├── Assignment02/
+├── ...
+├── Assignment30/
+├── h2.jar
+└── README.md
+```
+
+The diagram is a high-level overview; individual folders may contain additional source files and output examples.
+
+## Current scope and next steps
+
+This repository documents Java learning exercises. It does **not** claim to be a Spring Boot REST API or a production backend service. Planned portfolio improvements include adding reproducible setup instructions per exercise, automated compile checks where compatible, and unit tests for suitable exercises.
 
 ## Author
-Computer Science Student
+
+Bryan Manhenge
